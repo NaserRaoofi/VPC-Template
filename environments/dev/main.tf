@@ -15,7 +15,6 @@ module "vpc" {
   vpc_cidr    = var.vpc_cidr
   environment = var.environment
   tags        = var.vpc_tags
-  azs         = local.azs
 }
 
 module "iam" {
